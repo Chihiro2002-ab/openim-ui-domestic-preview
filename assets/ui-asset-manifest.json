@@ -1,0 +1,1711 @@
+{
+  "generator": "scripts/export-ui-assets.mjs",
+  "catalog": "/assets/ui-assets.html",
+  "notes": [
+    "Lucide SVGs are generated from icons actually imported by the UI source.",
+    "DiceBear and Unsplash assets mirror current demo fixtures; they are not brand-approved production artwork.",
+    "The existing brand PNG and reference image remain the source-of-truth raster assets."
+  ],
+  "icons": {
+    "count": 164,
+    "sourcePackage": "lucide-react@0.546.0",
+    "license": "ISC with MIT portions",
+    "licenseFile": "/assets/ui-icons/LICENSE-lucide.txt",
+    "viewBox": "0 0 24 24",
+    "stroke": "currentColor",
+    "files": [
+      {
+        "name": "Archive",
+        "file": "/assets/ui-icons/archive.svg",
+        "usedBy": [
+          "src/components/FileMessageBubble.tsx",
+          "src/components/MobileLayout.tsx"
+        ]
+      },
+      {
+        "name": "ArchiveRestore",
+        "file": "/assets/ui-icons/archive-restore.svg",
+        "usedBy": [
+          "src/components/ChatList.tsx"
+        ]
+      },
+      {
+        "name": "ArrowDown",
+        "file": "/assets/ui-icons/arrow-down.svg",
+        "usedBy": [
+          "src/components/ConversationGroupFilter.tsx"
+        ]
+      },
+      {
+        "name": "ArrowDownToLine",
+        "file": "/assets/ui-icons/arrow-down-to-line.svg",
+        "usedBy": [
+          "src/components/FileMessageBubble.tsx"
+        ]
+      },
+      {
+        "name": "ArrowUp",
+        "file": "/assets/ui-icons/arrow-up.svg",
+        "usedBy": [
+          "src/components/ConversationGroupFilter.tsx",
+          "src/components/NewChatModal.tsx"
+        ]
+      },
+      {
+        "name": "ArrowUpFromLine",
+        "file": "/assets/ui-icons/arrow-up-from-line.svg",
+        "usedBy": [
+          "src/components/FileMessageBubble.tsx"
+        ]
+      },
+      {
+        "name": "AtSign",
+        "file": "/assets/ui-icons/at-sign.svg",
+        "usedBy": [
+          "src/components/GroupMentionPicker.tsx"
+        ]
+      },
+      {
+        "name": "AudioLines",
+        "file": "/assets/ui-icons/audio-lines.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "BatteryFull",
+        "file": "/assets/ui-icons/battery-full.svg",
+        "usedBy": [
+          "src/components/MobileLayout.tsx"
+        ]
+      },
+      {
+        "name": "Bell",
+        "file": "/assets/ui-icons/bell.svg",
+        "usedBy": [
+          "src/components/ContactsList.tsx"
+        ]
+      },
+      {
+        "name": "BellOff",
+        "file": "/assets/ui-icons/bell-off.svg",
+        "usedBy": [
+          "src/components/ContactDetail.tsx",
+          "src/components/ConversationMuteDialog.tsx",
+          "src/components/GroupManagementPanel.tsx"
+        ]
+      },
+      {
+        "name": "Bold",
+        "file": "/assets/ui-icons/bold.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Bookmark",
+        "file": "/assets/ui-icons/bookmark.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Bot",
+        "file": "/assets/ui-icons/bot.svg",
+        "usedBy": [
+          "src/components/ContactsList.tsx"
+        ]
+      },
+      {
+        "name": "Building2",
+        "file": "/assets/ui-icons/building2.svg",
+        "usedBy": [
+          "src/components/AuthView.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactsList.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/NewChatModal.tsx",
+          "src/components/OrganizationDirectory.tsx"
+        ]
+      },
+      {
+        "name": "CalendarDays",
+        "file": "/assets/ui-icons/calendar-days.svg",
+        "usedBy": [
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/PersonalProfileDialog.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Camera",
+        "file": "/assets/ui-icons/camera.svg",
+        "usedBy": [
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MobileCameraCapture.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/NewChatModal.tsx",
+          "src/components/PersonalProfileDialog.tsx"
+        ]
+      },
+      {
+        "name": "CameraOff",
+        "file": "/assets/ui-icons/camera-off.svg",
+        "usedBy": [
+          "src/components/MeetingView.tsx",
+          "src/components/MobileCameraCapture.tsx"
+        ]
+      },
+      {
+        "name": "Check",
+        "file": "/assets/ui-icons/check.svg",
+        "usedBy": [
+          "src/components/AuthView.tsx",
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/ChatList.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactPickerModal.tsx",
+          "src/components/ContactsList.tsx",
+          "src/components/ConversationGroupFilter.tsx",
+          "src/components/ConversationLabelPicker.tsx",
+          "src/components/ConversationMuteDialog.tsx",
+          "src/components/GlobalSearch.tsx",
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/LocationPicker.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MessageReceiptPanel.tsx",
+          "src/components/MobileAddFriend.tsx",
+          "src/components/MobileAddGroup.tsx",
+          "src/components/MobileCameraCapture.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileConversationGroupEditor.tsx",
+          "src/components/MobileMemberPickerPage.tsx",
+          "src/components/NewChatModal.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "CheckSquare2",
+        "file": "/assets/ui-icons/check-square2.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/FavoritesView.tsx",
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "ChevronDown",
+        "file": "/assets/ui-icons/chevron-down.svg",
+        "usedBy": [
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactsList.tsx",
+          "src/components/ConversationGroupFilter.tsx",
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "ChevronLeft",
+        "file": "/assets/ui-icons/chevron-left.svg",
+        "usedBy": [
+          "src/components/AuthView.tsx",
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/FavoritesView.tsx",
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/MobileAddFriend.tsx",
+          "src/components/MobileAddGroup.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileContactProfile.tsx",
+          "src/components/MobileConversationGroupEditor.tsx",
+          "src/components/MobileGlobalSearch.tsx",
+          "src/components/MobileLayout.tsx",
+          "src/components/MobileMemberPickerPage.tsx",
+          "src/components/Overlay.tsx",
+          "src/components/PersonalProfileDialog.tsx",
+          "src/components/ProductFlowDialog.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "ChevronRight",
+        "file": "/assets/ui-icons/chevron-right.svg",
+        "usedBy": [
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/FavoritesView.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/MediaGallery.tsx",
+          "src/components/MobileAddFriend.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileContactProfile.tsx",
+          "src/components/MobileLayout.tsx",
+          "src/components/NewChatModal.tsx",
+          "src/components/OrganizationDirectory.tsx",
+          "src/components/ProductFlowDialog.tsx",
+          "src/components/SettingsView.tsx",
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      },
+      {
+        "name": "ChevronsUpDown",
+        "file": "/assets/ui-icons/chevrons-up-down.svg",
+        "usedBy": [
+          "src/components/GlobalSearch.tsx"
+        ]
+      },
+      {
+        "name": "ChevronUp",
+        "file": "/assets/ui-icons/chevron-up.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Circle",
+        "file": "/assets/ui-icons/circle.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "CircleAlert",
+        "file": "/assets/ui-icons/circle-alert.svg",
+        "usedBy": [
+          "src/components/ChatList.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "CircleX",
+        "file": "/assets/ui-icons/circle-x.svg",
+        "usedBy": [
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Clapperboard",
+        "file": "/assets/ui-icons/clapperboard.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Clock3",
+        "file": "/assets/ui-icons/clock3.svg",
+        "usedBy": [
+          "src/components/ConversationMuteDialog.tsx"
+        ]
+      },
+      {
+        "name": "Cloud",
+        "file": "/assets/ui-icons/cloud.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Code2",
+        "file": "/assets/ui-icons/code2.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "ContactRound",
+        "file": "/assets/ui-icons/contact-round.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactDetail.tsx",
+          "src/components/ForwardedRecord.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileContactProfile.tsx"
+        ]
+      },
+      {
+        "name": "Copy",
+        "file": "/assets/ui-icons/copy.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileMediaViewer.tsx",
+          "src/components/SettingsView.tsx",
+          "src/desktop/DesktopWindowControls.tsx",
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      },
+      {
+        "name": "CornerDownLeft",
+        "file": "/assets/ui-icons/corner-down-left.svg",
+        "usedBy": [
+          "src/components/GlobalSearch.tsx"
+        ]
+      },
+      {
+        "name": "CornerUpLeft",
+        "file": "/assets/ui-icons/corner-up-left.svg",
+        "usedBy": [
+          "src/components/PinnedMessagesPanel.tsx"
+        ]
+      },
+      {
+        "name": "Delete",
+        "file": "/assets/ui-icons/delete.svg",
+        "usedBy": [
+          "src/components/NewChatModal.tsx"
+        ]
+      },
+      {
+        "name": "Download",
+        "file": "/assets/ui-icons/download.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MediaGallery.tsx",
+          "src/components/MobileMediaViewer.tsx"
+        ]
+      },
+      {
+        "name": "Ear",
+        "file": "/assets/ui-icons/ear.svg",
+        "usedBy": [
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Edit3",
+        "file": "/assets/ui-icons/edit3.svg",
+        "usedBy": [
+          "src/components/MobileContactProfile.tsx"
+        ]
+      },
+      {
+        "name": "Eraser",
+        "file": "/assets/ui-icons/eraser.svg",
+        "usedBy": [
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "ExternalLink",
+        "file": "/assets/ui-icons/external-link.svg",
+        "usedBy": [
+          "src/components/FavoritesView.tsx"
+        ]
+      },
+      {
+        "name": "Eye",
+        "file": "/assets/ui-icons/eye.svg",
+        "usedBy": [
+          "src/components/AuthView.tsx",
+          "src/components/GroupAnnouncementViews.tsx"
+        ]
+      },
+      {
+        "name": "EyeOff",
+        "file": "/assets/ui-icons/eye-off.svg",
+        "usedBy": [
+          "src/components/AuthView.tsx"
+        ]
+      },
+      {
+        "name": "FileArchive",
+        "file": "/assets/ui-icons/file-archive.svg",
+        "usedBy": [
+          "src/components/FavoritesView.tsx"
+        ]
+      },
+      {
+        "name": "FileCode2",
+        "file": "/assets/ui-icons/file-code2.svg",
+        "usedBy": [
+          "src/components/FileMessageBubble.tsx"
+        ]
+      },
+      {
+        "name": "FileDown",
+        "file": "/assets/ui-icons/file-down.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "FileSearch2",
+        "file": "/assets/ui-icons/file-search2.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "FileSpreadsheet",
+        "file": "/assets/ui-icons/file-spreadsheet.svg",
+        "usedBy": [
+          "src/components/FileMessageBubble.tsx"
+        ]
+      },
+      {
+        "name": "FileText",
+        "file": "/assets/ui-icons/file-text.svg",
+        "usedBy": [
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/FavoritesView.tsx",
+          "src/components/FileMessageBubble.tsx",
+          "src/components/GlobalSearch.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileGlobalSearch.tsx",
+          "src/components/PCLayout.tsx",
+          "src/components/ProductFlowDialog.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "FileType2",
+        "file": "/assets/ui-icons/file-type2.svg",
+        "usedBy": [
+          "src/components/FileMessageBubble.tsx"
+        ]
+      },
+      {
+        "name": "FileUp",
+        "file": "/assets/ui-icons/file-up.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Flag",
+        "file": "/assets/ui-icons/flag.svg",
+        "usedBy": [
+          "src/components/ChatList.tsx"
+        ]
+      },
+      {
+        "name": "Folder",
+        "file": "/assets/ui-icons/folder.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/FavoritesView.tsx",
+          "src/components/FileMessageBubble.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/OrganizationDirectory.tsx"
+        ]
+      },
+      {
+        "name": "FolderOpen",
+        "file": "/assets/ui-icons/folder-open.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/SettingsView.tsx",
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      },
+      {
+        "name": "Globe",
+        "file": "/assets/ui-icons/globe.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Globe2",
+        "file": "/assets/ui-icons/globe2.svg",
+        "usedBy": [
+          "src/components/NewChatModal.tsx"
+        ]
+      },
+      {
+        "name": "Grid2X2",
+        "file": "/assets/ui-icons/grid2-x2.svg",
+        "usedBy": [
+          "src/components/MediaGallery.tsx",
+          "src/components/MobileMediaViewer.tsx",
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      },
+      {
+        "name": "GripVertical",
+        "file": "/assets/ui-icons/grip-vertical.svg",
+        "usedBy": [
+          "src/components/MobileConversationGroupEditor.tsx"
+        ]
+      },
+      {
+        "name": "Hash",
+        "file": "/assets/ui-icons/hash.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Heart",
+        "file": "/assets/ui-icons/heart.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Image",
+        "file": "/assets/ui-icons/image.svg",
+        "usedBy": [
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/FavoritesView.tsx",
+          "src/components/MobileCameraCapture.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/media-viewer/MediaViewerApp.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "ImageOff",
+        "file": "/assets/ui-icons/image-off.svg",
+        "usedBy": [
+          "src/components/MobileMediaViewer.tsx"
+        ]
+      },
+      {
+        "name": "ImagePlus",
+        "file": "/assets/ui-icons/image-plus.svg",
+        "usedBy": [
+          "src/components/AvatarEditor.tsx"
+        ]
+      },
+      {
+        "name": "Info",
+        "file": "/assets/ui-icons/info.svg",
+        "usedBy": [
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Italic",
+        "file": "/assets/ui-icons/italic.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "Keyboard",
+        "file": "/assets/ui-icons/keyboard.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "KeyRound",
+        "file": "/assets/ui-icons/key-round.svg",
+        "usedBy": [
+          "src/components/AuthView.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Languages",
+        "file": "/assets/ui-icons/languages.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Laptop",
+        "file": "/assets/ui-icons/laptop.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Link2",
+        "file": "/assets/ui-icons/link2.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MeetingView.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "List",
+        "file": "/assets/ui-icons/list.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "ListOrdered",
+        "file": "/assets/ui-icons/list-ordered.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "LoaderCircle",
+        "file": "/assets/ui-icons/loader-circle.svg",
+        "usedBy": [
+          "src/components/AuthView.tsx",
+          "src/components/AvatarEditor.tsx",
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/ChatList.tsx",
+          "src/components/MobileCameraCapture.tsx",
+          "src/components/MobileMediaViewer.tsx",
+          "src/components/ProductFlowDialog.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "LocateFixed",
+        "file": "/assets/ui-icons/locate-fixed.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/LocationPicker.tsx",
+          "src/components/MobileMediaViewer.tsx",
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      },
+      {
+        "name": "LockKeyhole",
+        "file": "/assets/ui-icons/lock-keyhole.svg",
+        "usedBy": [
+          "src/components/AuthView.tsx",
+          "src/components/MobileConversationGroupEditor.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "LogOut",
+        "file": "/assets/ui-icons/log-out.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Mail",
+        "file": "/assets/ui-icons/mail.svg",
+        "usedBy": [
+          "src/components/PersonalProfileDialog.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "MapPin",
+        "file": "/assets/ui-icons/map-pin.svg",
+        "usedBy": [
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/LocationMessageCard.tsx",
+          "src/components/LocationPicker.tsx",
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Mars",
+        "file": "/assets/ui-icons/mars.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Maximize2",
+        "file": "/assets/ui-icons/maximize2.svg",
+        "usedBy": [
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/SettingsView.tsx",
+          "src/desktop/DesktopWindowControls.tsx",
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      },
+      {
+        "name": "Megaphone",
+        "file": "/assets/ui-icons/megaphone.svg",
+        "usedBy": [
+          "src/components/ChatList.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "MessageCircle",
+        "file": "/assets/ui-icons/message-circle.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactPickerModal.tsx",
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/MobileContactProfile.tsx"
+        ]
+      },
+      {
+        "name": "MessageSquare",
+        "file": "/assets/ui-icons/message-square.svg",
+        "usedBy": [
+          "src/components/ContactDetail.tsx",
+          "src/components/FavoritesView.tsx",
+          "src/components/MobileLayout.tsx",
+          "src/components/PCLayout.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "MessageSquareMore",
+        "file": "/assets/ui-icons/message-square-more.svg",
+        "usedBy": [
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "MessageSquareReply",
+        "file": "/assets/ui-icons/message-square-reply.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "MessageSquareText",
+        "file": "/assets/ui-icons/message-square-text.svg",
+        "usedBy": [
+          "src/components/ChatHistorySearchWindow.tsx"
+        ]
+      },
+      {
+        "name": "Mic",
+        "file": "/assets/ui-icons/mic.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "MicOff",
+        "file": "/assets/ui-icons/mic-off.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "Minimize2",
+        "file": "/assets/ui-icons/minimize2.svg",
+        "usedBy": [
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Minus",
+        "file": "/assets/ui-icons/minus.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx",
+          "src/desktop/DesktopWindowControls.tsx"
+        ]
+      },
+      {
+        "name": "Monitor",
+        "file": "/assets/ui-icons/monitor.svg",
+        "usedBy": [
+          "src/components/OrganizationDirectory.tsx"
+        ]
+      },
+      {
+        "name": "MonitorUp",
+        "file": "/assets/ui-icons/monitor-up.svg",
+        "usedBy": [
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "Moon",
+        "file": "/assets/ui-icons/moon.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "MoreHorizontal",
+        "file": "/assets/ui-icons/more-horizontal.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactDetail.tsx",
+          "src/components/ConversationGroupFilter.tsx",
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileContactProfile.tsx",
+          "src/components/MobileMediaViewer.tsx",
+          "src/components/PCLayout.tsx"
+        ]
+      },
+      {
+        "name": "MousePointer2",
+        "file": "/assets/ui-icons/mouse-pointer2.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "Navigation",
+        "file": "/assets/ui-icons/navigation.svg",
+        "usedBy": [
+          "src/components/LocationMessageCard.tsx"
+        ]
+      },
+      {
+        "name": "Network",
+        "file": "/assets/ui-icons/network.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Pause",
+        "file": "/assets/ui-icons/pause.svg",
+        "usedBy": [
+          "src/components/VoiceMessage.tsx"
+        ]
+      },
+      {
+        "name": "Pencil",
+        "file": "/assets/ui-icons/pencil.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactDetail.tsx",
+          "src/components/ConversationGroupFilter.tsx",
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/MobileConversationGroupEditor.tsx",
+          "src/components/PersonalProfileDialog.tsx"
+        ]
+      },
+      {
+        "name": "PenLine",
+        "file": "/assets/ui-icons/pen-line.svg",
+        "usedBy": [
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "Phone",
+        "file": "/assets/ui-icons/phone.svg",
+        "usedBy": [
+          "src/components/AuthView.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactDetail.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileContactProfile.tsx",
+          "src/components/PersonalProfileDialog.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "PhoneCall",
+        "file": "/assets/ui-icons/phone-call.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "PhoneIncoming",
+        "file": "/assets/ui-icons/phone-incoming.svg",
+        "usedBy": [
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "PhoneMissed",
+        "file": "/assets/ui-icons/phone-missed.svg",
+        "usedBy": [
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "PhoneOff",
+        "file": "/assets/ui-icons/phone-off.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "PhoneOutgoing",
+        "file": "/assets/ui-icons/phone-outgoing.svg",
+        "usedBy": [
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "Pin",
+        "file": "/assets/ui-icons/pin.svg",
+        "usedBy": [
+          "src/components/ChatList.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/PinnedMessagesPanel.tsx"
+        ]
+      },
+      {
+        "name": "Play",
+        "file": "/assets/ui-icons/play.svg",
+        "usedBy": [
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/VoiceMessage.tsx"
+        ]
+      },
+      {
+        "name": "Plus",
+        "file": "/assets/ui-icons/plus.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/ConversationGroupFilter.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileConversationGroupEditor.tsx",
+          "src/components/MobileLayout.tsx",
+          "src/components/PCLayout.tsx",
+          "src/desktop/DesktopWindowControls.tsx"
+        ]
+      },
+      {
+        "name": "Presentation",
+        "file": "/assets/ui-icons/presentation.svg",
+        "usedBy": [
+          "src/components/FileMessageBubble.tsx"
+        ]
+      },
+      {
+        "name": "QrCode",
+        "file": "/assets/ui-icons/qr-code.svg",
+        "usedBy": [
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/MobileAddFriend.tsx",
+          "src/components/MobileAddGroup.tsx",
+          "src/components/ProductFlowDialog.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Quote",
+        "file": "/assets/ui-icons/quote.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "Radio",
+        "file": "/assets/ui-icons/radio.svg",
+        "usedBy": [
+          "src/components/MeetingView.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Redo2",
+        "file": "/assets/ui-icons/redo2.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "RefreshCw",
+        "file": "/assets/ui-icons/refresh-cw.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Reply",
+        "file": "/assets/ui-icons/reply.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "RotateCcw",
+        "file": "/assets/ui-icons/rotate-ccw.svg",
+        "usedBy": [
+          "src/components/AvatarEditor.tsx",
+          "src/components/FileMessageBubble.tsx",
+          "src/components/MobileCameraCapture.tsx",
+          "src/components/ProductFlowDialog.tsx",
+          "src/components/VoiceMessage.tsx"
+        ]
+      },
+      {
+        "name": "RotateCw",
+        "file": "/assets/ui-icons/rotate-cw.svg",
+        "usedBy": [
+          "src/components/AvatarEditor.tsx",
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/MobileMediaViewer.tsx",
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      },
+      {
+        "name": "ScanLine",
+        "file": "/assets/ui-icons/scan-line.svg",
+        "usedBy": [
+          "src/components/MobileAddFriend.tsx",
+          "src/components/MobileAddGroup.tsx"
+        ]
+      },
+      {
+        "name": "Scissors",
+        "file": "/assets/ui-icons/scissors.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Search",
+        "file": "/assets/ui-icons/search.svg",
+        "usedBy": [
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactPickerModal.tsx",
+          "src/components/ContactsList.tsx",
+          "src/components/ConversationLabelPicker.tsx",
+          "src/components/FavoritesView.tsx",
+          "src/components/GlobalSearch.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/LocationPicker.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MobileAddFriend.tsx",
+          "src/components/MobileAddGroup.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileGlobalSearch.tsx",
+          "src/components/MobileLayout.tsx",
+          "src/components/MobileMemberPickerPage.tsx",
+          "src/components/NewChatModal.tsx",
+          "src/components/PCLayout.tsx"
+        ]
+      },
+      {
+        "name": "SearchX",
+        "file": "/assets/ui-icons/search-x.svg",
+        "usedBy": [
+          "src/components/MobileAddFriend.tsx"
+        ]
+      },
+      {
+        "name": "Send",
+        "file": "/assets/ui-icons/send.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/FavoritesView.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileContactProfile.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "Settings",
+        "file": "/assets/ui-icons/settings.svg",
+        "usedBy": [
+          "src/components/PCLayout.tsx"
+        ]
+      },
+      {
+        "name": "Settings2",
+        "file": "/assets/ui-icons/settings2.svg",
+        "usedBy": [
+          "src/components/MobileContactProfile.tsx"
+        ]
+      },
+      {
+        "name": "Shapes",
+        "file": "/assets/ui-icons/shapes.svg",
+        "usedBy": [
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "Share2",
+        "file": "/assets/ui-icons/share2.svg",
+        "usedBy": [
+          "src/components/GroupManagementPanel.tsx"
+        ]
+      },
+      {
+        "name": "Shield",
+        "file": "/assets/ui-icons/shield.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "ShieldCheck",
+        "file": "/assets/ui-icons/shield-check.svg",
+        "usedBy": [
+          "src/components/AuthView.tsx",
+          "src/components/BlacklistManager.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "ShieldOff",
+        "file": "/assets/ui-icons/shield-off.svg",
+        "usedBy": [
+          "src/components/MobileContactProfile.tsx"
+        ]
+      },
+      {
+        "name": "Signal",
+        "file": "/assets/ui-icons/signal.svg",
+        "usedBy": [
+          "src/components/MobileLayout.tsx"
+        ]
+      },
+      {
+        "name": "SlidersHorizontal",
+        "file": "/assets/ui-icons/sliders-horizontal.svg",
+        "usedBy": [
+          "src/components/GlobalSearch.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Smartphone",
+        "file": "/assets/ui-icons/smartphone.svg",
+        "usedBy": [
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Smile",
+        "file": "/assets/ui-icons/smile.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Square",
+        "file": "/assets/ui-icons/square.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/desktop/DesktopWindowControls.tsx"
+        ]
+      },
+      {
+        "name": "SquareArrowOutUpRight",
+        "file": "/assets/ui-icons/square-arrow-out-up-right.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MediaGallery.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileMediaViewer.tsx",
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      },
+      {
+        "name": "SquarePen",
+        "file": "/assets/ui-icons/square-pen.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MobileChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "SquareStar",
+        "file": "/assets/ui-icons/square-star.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileMediaViewer.tsx",
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      },
+      {
+        "name": "Star",
+        "file": "/assets/ui-icons/star.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactDetail.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/PCLayout.tsx"
+        ]
+      },
+      {
+        "name": "Strikethrough",
+        "file": "/assets/ui-icons/strikethrough.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "SwitchCamera",
+        "file": "/assets/ui-icons/switch-camera.svg",
+        "usedBy": [
+          "src/components/MobileCameraCapture.tsx"
+        ]
+      },
+      {
+        "name": "Tag",
+        "file": "/assets/ui-icons/tag.svg",
+        "usedBy": [
+          "src/components/ChatList.tsx",
+          "src/components/ConversationGroupFilter.tsx",
+          "src/components/ConversationLabelPicker.tsx",
+          "src/components/MobileConversationGroupEditor.tsx"
+        ]
+      },
+      {
+        "name": "TextCursorInput",
+        "file": "/assets/ui-icons/text-cursor-input.svg",
+        "usedBy": [
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "Trash2",
+        "file": "/assets/ui-icons/trash2.svg",
+        "usedBy": [
+          "src/components/ChatList.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactDetail.tsx",
+          "src/components/ContactsList.tsx",
+          "src/components/ConversationGroupFilter.tsx",
+          "src/components/FavoritesView.tsx",
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileConversationGroupEditor.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "Type",
+        "file": "/assets/ui-icons/type.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Undo2",
+        "file": "/assets/ui-icons/undo2.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "Upload",
+        "file": "/assets/ui-icons/upload.svg",
+        "usedBy": [
+          "src/components/AvatarEditor.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "User",
+        "file": "/assets/ui-icons/user.svg",
+        "usedBy": [
+          "src/components/MobileLayout.tsx"
+        ]
+      },
+      {
+        "name": "UserMinus",
+        "file": "/assets/ui-icons/user-minus.svg",
+        "usedBy": [
+          "src/components/GroupManagementPanel.tsx"
+        ]
+      },
+      {
+        "name": "UserPlus",
+        "file": "/assets/ui-icons/user-plus.svg",
+        "usedBy": [
+          "src/components/ContactsList.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/MobileLayout.tsx",
+          "src/components/NewChatModal.tsx",
+          "src/components/PCLayout.tsx"
+        ]
+      },
+      {
+        "name": "UserRound",
+        "file": "/assets/ui-icons/user-round.svg",
+        "usedBy": [
+          "src/components/AuthView.tsx",
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactPickerModal.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/PersonalProfileDialog.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "UserRoundPlus",
+        "file": "/assets/ui-icons/user-round-plus.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "UserRoundX",
+        "file": "/assets/ui-icons/user-round-x.svg",
+        "usedBy": [
+          "src/components/BlacklistManager.tsx",
+          "src/components/ContactDetail.tsx",
+          "src/components/MobileContactProfile.tsx"
+        ]
+      },
+      {
+        "name": "Users",
+        "file": "/assets/ui-icons/users.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactPickerModal.tsx",
+          "src/components/ContactsList.tsx",
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/GroupMentionPicker.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MobileAddGroup.tsx",
+          "src/components/MobileLayout.tsx",
+          "src/components/MobileMemberPickerPage.tsx",
+          "src/components/NewChatModal.tsx",
+          "src/components/PCLayout.tsx"
+        ]
+      },
+      {
+        "name": "Video",
+        "file": "/assets/ui-icons/video.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactDetail.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MobileChatWindow.tsx",
+          "src/components/MobileLayout.tsx",
+          "src/components/PCLayout.tsx",
+          "src/components/SettingsView.tsx",
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      },
+      {
+        "name": "VideoOff",
+        "file": "/assets/ui-icons/video-off.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx"
+        ]
+      },
+      {
+        "name": "Volume2",
+        "file": "/assets/ui-icons/volume2.svg",
+        "usedBy": [
+          "src/components/ChatWindow.tsx",
+          "src/components/SettingsView.tsx"
+        ]
+      },
+      {
+        "name": "VolumeX",
+        "file": "/assets/ui-icons/volume-x.svg",
+        "usedBy": [
+          "src/components/ChatList.tsx"
+        ]
+      },
+      {
+        "name": "WandSparkles",
+        "file": "/assets/ui-icons/wand-sparkles.svg",
+        "usedBy": [
+          "src/components/MeetingView.tsx"
+        ]
+      },
+      {
+        "name": "X",
+        "file": "/assets/ui-icons/x.svg",
+        "usedBy": [
+          "src/components/ChatHistorySearchWindow.tsx",
+          "src/components/ChatWindow.tsx",
+          "src/components/ContactPickerModal.tsx",
+          "src/components/ContactsList.tsx",
+          "src/components/FavoritesView.tsx",
+          "src/components/GlobalSearch.tsx",
+          "src/components/GroupAnnouncementViews.tsx",
+          "src/components/GroupManagementPanel.tsx",
+          "src/components/MediaGallery.tsx",
+          "src/components/MeetingView.tsx",
+          "src/components/MessageReceiptPanel.tsx",
+          "src/components/MobileAddFriend.tsx",
+          "src/components/MobileAddGroup.tsx",
+          "src/components/MobileCameraCapture.tsx",
+          "src/components/MobileGlobalSearch.tsx",
+          "src/components/MobileMediaViewer.tsx",
+          "src/components/MobileMemberPickerPage.tsx",
+          "src/components/NewChatModal.tsx",
+          "src/components/Overlay.tsx",
+          "src/components/PCLayout.tsx",
+          "src/components/PinnedMessagesPanel.tsx",
+          "src/components/SettingsView.tsx",
+          "src/desktop/DesktopWindowControls.tsx",
+          "src/rich-text-editor/RichTextEditorApp.tsx"
+        ]
+      },
+      {
+        "name": "Zap",
+        "file": "/assets/ui-icons/zap.svg",
+        "usedBy": [
+          "src/components/ContactDetail.tsx"
+        ]
+      },
+      {
+        "name": "ZoomIn",
+        "file": "/assets/ui-icons/zoom-in.svg",
+        "usedBy": [
+          "src/components/AvatarEditor.tsx",
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      },
+      {
+        "name": "ZoomOut",
+        "file": "/assets/ui-icons/zoom-out.svg",
+        "usedBy": [
+          "src/media-viewer/MediaViewerApp.tsx"
+        ]
+      }
+    ],
+    "sprite": "/assets/ui-icons/sprite.svg"
+  },
+  "avatars": [
+    {
+      "source": "https://api.dicebear.com/7.x/bottts/svg?seed=Chihiro&backgroundColor=e4efff",
+      "file": "/assets/ui-avatars/bottts-chihiro-e4efff.svg",
+      "bytes": 7609,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/identicon/svg?seed=Acceptance105&backgroundColor=fff0d9",
+      "file": "/assets/ui-avatars/identicon-acceptance105-fff0d9.svg",
+      "bytes": 1173,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/identicon/svg?seed=Copy&backgroundColor=f3f0ff",
+      "file": "/assets/ui-avatars/identicon-copy-f3f0ff.svg",
+      "bytes": 1203,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/identicon/svg?seed=Group1&backgroundColor=e2f5e9",
+      "file": "/assets/ui-avatars/identicon-group1-e2f5e9.svg",
+      "bytes": 1188,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/identicon/svg?seed=Group2&backgroundColor=e2f5e9",
+      "file": "/assets/ui-avatars/identicon-group2-e2f5e9.svg",
+      "bytes": 1158,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/identicon/svg?seed=Group3&backgroundColor=e2f5e9",
+      "file": "/assets/ui-avatars/identicon-group3-e2f5e9.svg",
+      "bytes": 1229,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/identicon/svg?seed=LocationMessageGroup&backgroundColor=dceaff",
+      "file": "/assets/ui-avatars/identicon-locationmessagegroup-dceaff.svg",
+      "bytes": 1231,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/identicon/svg?seed=RoleAdminGroup&backgroundColor=e4f1df",
+      "file": "/assets/ui-avatars/identicon-roleadmingroup-e4f1df.svg",
+      "bytes": 1231,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/identicon/svg?seed=RoleMemberGroup&backgroundColor=f4e7d6",
+      "file": "/assets/ui-avatars/identicon-rolemembergroup-f4e7d6.svg",
+      "bytes": 1201,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/identicon/svg?seed=RoleOwnerGroup&backgroundColor=dceaff",
+      "file": "/assets/ui-avatars/identicon-roleownergroup-dceaff.svg",
+      "bytes": 1203,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/identicon/svg?seed=Words&backgroundColor=e2f5e9",
+      "file": "/assets/ui-avatars/identicon-words-e2f5e9.svg",
+      "bytes": 1186,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/notionists/svg?seed=FailedDemo&backgroundColor=f5dddd",
+      "file": "/assets/ui-avatars/notionists-faileddemo-f5dddd.svg",
+      "bytes": 12048,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/notionists/svg?seed=GuYan&backgroundColor=efe4d8",
+      "file": "/assets/ui-avatars/notionists-guyan-efe4d8.svg",
+      "bytes": 19290,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/notionists/svg?seed=JZ&backgroundColor=e0dcd9",
+      "file": "/assets/ui-avatars/notionists-jz-e0dcd9.svg",
+      "bytes": 32720,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/notionists/svg?seed=Miao&backgroundColor=d2e0e5",
+      "file": "/assets/ui-avatars/notionists-miao-d2e0e5.svg",
+      "bytes": 13710,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/notionists/svg?seed=Sen&backgroundColor=c5d1c5",
+      "file": "/assets/ui-avatars/notionists-sen-c5d1c5.svg",
+      "bytes": 9945,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/notionists/svg?seed=SendingDemo&backgroundColor=dfeaf6",
+      "file": "/assets/ui-avatars/notionists-sendingdemo-dfeaf6.svg",
+      "bytes": 10219,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/notionists/svg?seed=U002&backgroundColor=e3ecda",
+      "file": "/assets/ui-avatars/notionists-u002-e3ecda.svg",
+      "bytes": 14768,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/notionists/svg?seed=Yan&backgroundColor=e0dcd9",
+      "file": "/assets/ui-avatars/notionists-yan-e0dcd9.svg",
+      "bytes": 12054,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/notionists/svg?seed=Yun&backgroundColor=eaddcf",
+      "file": "/assets/ui-avatars/notionists-yun-eaddcf.svg",
+      "bytes": 10276,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/notionists/svg?seed=ZhouHang&backgroundColor=d7e7f5",
+      "file": "/assets/ui-avatars/notionists-zhouhang-d7e7f5.svg",
+      "bytes": 10438,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/shapes/svg?seed=AI&backgroundColor=e4efff",
+      "file": "/assets/ui-avatars/shapes-ai-e4efff.svg",
+      "bytes": 1522,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/shapes/svg?seed=Admin&backgroundColor=e4efff",
+      "file": "/assets/ui-avatars/shapes-admin-e4efff.svg",
+      "bytes": 1531,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/shapes/svg?seed=FileTransfer&backgroundColor=e4efff",
+      "file": "/assets/ui-avatars/shapes-filetransfer-e4efff.svg",
+      "bytes": 1486,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/shapes/svg?seed=GroupCall&backgroundColor=e4efff",
+      "file": "/assets/ui-avatars/shapes-groupcall-e4efff.svg",
+      "bytes": 1429,
+      "license": "DiceBear API; verify current license before public redistribution"
+    },
+    {
+      "source": "https://api.dicebear.com/7.x/shapes/svg?seed=Security&backgroundColor=e4efff",
+      "file": "/assets/ui-avatars/shapes-security-e4efff.svg",
+      "bytes": 1430,
+      "license": "DiceBear API; verify current license before public redistribution"
+    }
+  ],
+  "demoPhotos": [
+    {
+      "source": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80",
+      "file": "/assets/demo-media/asset-photo-1497366811353-6870744d04b2.jpg",
+      "bytes": 94371,
+      "license": "Unsplash source URL; confirm license/attribution for distribution"
+    },
+    {
+      "source": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80",
+      "file": "/assets/demo-media/asset-photo-1521737711867-e3b97375f902.jpg",
+      "bytes": 180270,
+      "license": "Unsplash source URL; confirm license/attribution for distribution"
+    }
+  ],
+  "emptyStateIllustrations": [
+    {
+      "file": "/assets/empty-states/pc-empty-conversation.svg",
+      "role": "desktop empty conversation or unselected workspace",
+      "pixelSize": "240x176",
+      "format": "SVG"
+    },
+    {
+      "file": "/assets/empty-states/mobile-empty-conversation.svg",
+      "role": "mobile empty conversation",
+      "pixelSize": "144x112",
+      "format": "SVG"
+    }
+  ],
+  "existingImages": [
+    {
+      "file": "/assets/brand/openim-logo.png",
+      "role": "brand mark",
+      "source": "existing repository asset",
+      "pixelSize": "1024x1024"
+    },
+    {
+      "file": "/assets/reference-style/mobile-profile-city.png",
+      "role": "decorative reference image",
+      "source": "existing repository asset",
+      "pixelSize": "258x298"
+    }
+  ],
+  "runtimeOnly": [
+    {
+      "kind": "video",
+      "source": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      "note": "demo fixture; not copied into the asset package"
+    },
+    {
+      "kind": "audio",
+      "source": "https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3",
+      "note": "demo fixture; not copied into the asset package"
+    },
+    {
+      "kind": "map tiles",
+      "source": "https://webrd01.is.autonavi.com/appmaptile",
+      "note": "runtime map provider; check production terms and key requirements"
+    }
+  ]
+}
