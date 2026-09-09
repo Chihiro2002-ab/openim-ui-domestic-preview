@@ -1,0 +1,19 @@
+{
+  "sourceReference": "/var/folders/sl/j2rbv28j5kjghnr2bp92zjg40000gn/T/codex-clipboard-82a075bc-061e-453c-987d-ae104555f2fd.png",
+  "referenceCanvas": {
+    "width": 1120,
+    "height": 823
+  },
+  "assets": {
+    "ai-view": {
+      "file": "/assets/meeting-reference/ai-view.png",
+      "sourceBox": [88, 210, 616, 456],
+      "role": "semantic"
+    },
+    "layout-preview": {
+      "file": "/assets/meeting-reference/layout-preview.png",
+      "sourceBox": [790, 145, 1062, 292],
+      "role": "semantic"
+    }
+  }
+}
