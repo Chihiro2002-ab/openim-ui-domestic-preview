@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="112" viewBox="0 0 144 112" fill="none">
+  <title>尚无聊天消息的移动端插图</title>
+  <path d="M42 18C42 12.4772 46.4772 8 52 8H92C97.5229 8 102 12.4772 102 18V94C102 99.5228 97.5229 104 92 104H52C46.4772 104 42 99.5228 42 94V18Z" fill="#F7F8FA" stroke="#D8DEE8" stroke-width="2"/>
+  <path d="M63 15H81" stroke="#C9CDD4" stroke-width="3" stroke-linecap="round"/>
+  <path d="M65 96H79" stroke="#C9CDD4" stroke-width="3" stroke-linecap="round"/>
+  <path d="M30 37C30 31.4772 34.4772 27 40 27H76C81.5228 27 86 31.4772 86 37V52C86 57.5228 81.5228 62 76 62H62L53 71V62H40C34.4772 62 30 57.5228 30 52V37Z" fill="#DCEAFF" stroke="#007AFF" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M44 41H70" stroke="#007AFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M44 50H61" stroke="#409CFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M114 61C114 56.0294 109.971 52 105 52H79C74.0294 52 70 56.0294 70 61V73C70 77.9706 74.0294 82 79 82H88V90L96 82H105C109.971 82 114 77.9706 114 73V61Z" fill="white" stroke="#8F959E" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M84 65H101" stroke="#8F959E" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M84 73H95" stroke="#C9CDD4" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M108 31L112 35L119 27" stroke="#20A44A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

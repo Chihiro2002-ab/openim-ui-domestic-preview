@@ -1,0 +1,10 @@
+{
+  "referenceCanvas": [1448, 1086],
+  "assets": {
+    "li.png": { "source": "codex-clipboard-474ea5a8-09e3-440b-9010-1005bc09e94c.png", "box": [286, 221, 464, 399] },
+    "lin.png": { "source": "codex-clipboard-82788277-3b86-4af1-a432-b36139958644.png", "box": [552, 309, 897, 654] },
+    "member.png": { "source": "codex-clipboard-474ea5a8-09e3-440b-9010-1005bc09e94c.png", "box": [286, 579, 465, 758] },
+    "wang.png": { "source": "codex-clipboard-474ea5a8-09e3-440b-9010-1005bc09e94c.png", "box": [983, 579, 1162, 758] },
+    "video-preview.png": { "source": "codex-clipboard-5fc857ed-f68b-47b2-8ad4-707982d1d760.png", "box": [44, 178, 1330, 839], "usage": "DEV reference preview only; excludes the baked-in name badge and expand control" }
+  }
+}
