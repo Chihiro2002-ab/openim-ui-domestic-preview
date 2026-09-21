@@ -1,0 +1,7 @@
+{
+  "usage": "PC DEV-only low-resolution human video test sequences; not production camera streams",
+  "source": "https://media.xiph.org/video/derf/",
+  "remote": "akiyo_cif.y4m, 1.5s excerpt, source pixel aspect corrected to square pixels",
+  "phone": "same remote excerpt, centered 9:16 crop after pixel-aspect correction",
+  "local": "salesman_qcif.y4m, 0.4s excerpt, source pixel aspect corrected to square pixels"
+}
