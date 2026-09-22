@@ -1,0 +1,34 @@
+{
+  "src": "/var/folders/sl/j2rbv28j5kjghnr2bp92zjg40000gn/T/codex-clipboard-7fa56088-a7cb-4bb5-8000-78671feeb954.png",
+  "out": "public/assets/reference-style/mobile-profile-city.png",
+  "source_size": [
+    941,
+    1672
+  ],
+  "crop_box": [
+    580,
+    220,
+    838,
+    518
+  ],
+  "transparent_edge": null,
+  "threshold": 24,
+  "feather": 0.0,
+  "matte": null,
+  "brightness": 1.0,
+  "saturation": 1.0,
+  "output": {
+    "size": [
+      258,
+      298
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      258,
+      298
+    ],
+    "opaque_edge_pixel_count": 1112,
+    "opaque_edge_pixel_ratio": 1.0
+  }
+}
