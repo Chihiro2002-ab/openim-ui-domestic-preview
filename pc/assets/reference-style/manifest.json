@@ -1,0 +1,10 @@
+{
+  "sourceReference": "/var/folders/sl/j2rbv28j5kjghnr2bp92zjg40000gn/T/codex-clipboard-7fa56088-a7cb-4bb5-8000-78671feeb954.png",
+  "assets": {
+    "mobile-profile-city": {
+      "file": "/assets/reference-style/mobile-profile-city.png",
+      "sourceBox": [580, 220, 838, 518],
+      "role": "decorative"
+    }
+  }
+}

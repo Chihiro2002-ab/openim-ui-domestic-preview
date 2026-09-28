@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="176" viewBox="0 0 240 176" fill="none">
+  <title>等待选择会话的桌面端插图</title>
+  <path d="M42 149.5H198" stroke="#E5E6EB" stroke-width="2" stroke-linecap="round"/>
+  <path d="M58 58C58 48.0589 66.0589 40 76 40H164C173.941 40 182 48.0589 182 58V126C182 135.941 173.941 144 164 144H76C66.0589 144 58 135.941 58 126V58Z" fill="white" stroke="#D8DEE8" stroke-width="2"/>
+  <path d="M58 61H182" stroke="#EEF0F4" stroke-width="2"/>
+  <path d="M72 51H92" stroke="#C9CDD4" stroke-width="4" stroke-linecap="round"/>
+  <path d="M98 51H108" stroke="#E5E6EB" stroke-width="4" stroke-linecap="round"/>
+  <path d="M119 75C119 68.3726 113.627 63 107 63H61C54.3726 63 49 68.3726 49 75V96C49 102.627 54.3726 108 61 108H78L88.5 119V108H107C113.627 108 119 102.627 119 96V75Z" fill="#DCEAFF" stroke="#007AFF" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M65 78H100" stroke="#007AFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M65 89H91" stroke="#409CFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M196 82C196 75.3726 190.627 70 184 70H145C138.373 70 133 75.3726 133 82V100C133 106.627 138.373 112 145 112H158V122L168 112H184C190.627 112 196 106.627 196 100V82Z" fill="white" stroke="#8F959E" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M149 86H180" stroke="#8F959E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M149 97H170" stroke="#C9CDD4" stroke-width="4" stroke-linecap="round"/>
+  <path d="M75 128H113" stroke="#E5E6EB" stroke-width="4" stroke-linecap="round"/>
+  <path d="M127 130L133 136L145 122" stroke="#20A44A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M156 31H176C181.523 31 186 35.4772 186 41V50" stroke="#B8C8E3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M181 46L186 51L191 46" stroke="#B8C8E3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
